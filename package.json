@@ -1,6 +1,6 @@
 {
   "name": "a101",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "private": true,
   "description": "",
   "main": "dist/server/index.js",
