@@ -1,5 +1,4 @@
-// Populated automatically during the build phase by picking
-// all server exports from "src/entries/<entry_name>/server(/index)?.(js|ts)".
+// Populated automatically during the build phase by picking all server exports.
 // Ignore this file if a custom set of entry exports is required.
 export const entries = (
   await Promise.all([

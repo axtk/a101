@@ -1,0 +1,5 @@
+- entries: src/entries/*
+- main:
+  - src: src/server/index.ts
+  - dir: dist/server
+- dist: src/public/-
