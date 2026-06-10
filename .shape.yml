@@ -1,5 +1,13 @@
-- entries: src/entries/*
-- main:
+- server:
   - src: src/server/index.ts
-  - dir: dist/server
-- dist: src/public/-
+  - outdir: dist/server
+  - entries:
+    - src/entries/*/server.{js,ts,jsx,tsx}:-1
+    - src/entries/*/server/index.{js,ts,jsx,tsx}:-2
+- client:
+  - src:
+    - src/entries/*/index.{js,ts,jsx,tsx}:-1
+    - src/entries/*/src/index.{js,ts,jsx,tsx}:-2
+    - src/entries/*/ui/index.{js,ts,jsx,tsx}:-2
+    - src/entries/*/client/index.{js,ts,jsx,tsx}:-2
+  - outdir: src/public/-
