@@ -1,4 +1,4 @@
-import { A } from "react-bridgestate";
+import { A } from "react-statepod";
 import { url } from "../../utils/url.ts";
 
 export const Nav = () => (

@@ -1,4 +1,4 @@
-import { RouteProvider } from "react-bridgestate";
+import { RouteProvider } from "react-statepod";
 import type { AppState } from "../../types/AppState.ts";
 import { AppContext } from "../AppContext/index.ts";
 import { Content } from "./Content.tsx";

@@ -1,4 +1,4 @@
-import { A } from "react-bridgestate";
+import { A } from "react-statepod";
 
 export const Nav = () => (
   <nav>

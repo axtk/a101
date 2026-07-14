@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { useExternalState } from "react-bridgestate";
+import { useExternalState } from "react-statepod";
 import { AppContext } from "../AppContext/index.ts";
 
 export const MinusButton = () => {

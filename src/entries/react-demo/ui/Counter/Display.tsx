@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { useExternalState } from "react-bridgestate";
+import { useExternalState } from "react-statepod";
 import { HydratedOnly } from "react-clientside";
 import { AppContext } from "../AppContext/index.ts";
 

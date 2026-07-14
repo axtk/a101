@@ -1,4 +1,4 @@
-import { PersistentState } from "react-bridgestate";
+import { PersistentState } from "react-statepod";
 import type { SerializableAppState } from "../types/SerializableAppState.ts";
 
 export function toAppState(state: SerializableAppState) {
