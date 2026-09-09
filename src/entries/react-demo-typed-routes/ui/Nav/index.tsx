@@ -1,4 +1,4 @@
-import { A } from "react-statepod";
+import { A } from "react-statepack";
 import { url } from "../../utils/url.ts";
 
 export const Nav = () => (

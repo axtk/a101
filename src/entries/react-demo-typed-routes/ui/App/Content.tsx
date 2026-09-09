@@ -1,5 +1,5 @@
 import { Suspense } from "react";
-import { useRoute } from "react-statepod";
+import { useRoute } from "react-statepack";
 import { root } from "../../const/root.ts";
 import { titleMap } from "../../const/titleMap.ts";
 import { url } from "../../utils/url.ts";

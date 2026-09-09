@@ -1,4 +1,4 @@
-import { A } from "react-statepod";
+import { A } from "react-statepack";
 
 export const Nav = () => (
   <nav>
